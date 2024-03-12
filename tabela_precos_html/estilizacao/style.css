@@ -1,0 +1,19 @@
+.btn-1, .btn-2{
+  /* tamanho largura*/
+  max-width: 125px;
+  /* tamanho altura*/
+  height: 110px;
+  background: yellow;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  /*colocando borda arredondada*/
+  border-radius: 10px;
+  color: #fff;
+
+  font-size: 16px;
+  /*adicionando animação*/
+  transition: 3.0s
+
+}
