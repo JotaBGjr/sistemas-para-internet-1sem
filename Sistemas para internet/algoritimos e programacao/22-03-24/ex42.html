@@ -1,0 +1,34 @@
+<!-- ex42 
+Modifique o script do exercício 38 para que seja utilizada a instrução switch ao invés de if.
+O exercício 38 está no documento "Estrutura condicional - parte 1 - exemplos" da área de materiais (aulas) No blackboard 
+
+
+<script>impostoestado3.html
+    preco = parseFloat(window.prompt("Qual o preco do produto? "))
+    estado = window.prompt("Qual a sigla do estado onde será vendido? ")
+    if (estado == "SP")
+     imposto = preco * 0.25
+    else
+     if (estado == "RJ")
+     imposto = preco * 0.22
+    else
+     if (estado == "MG")
+     imposto = preco * 0.2
+    else
+     imposto = preco * 0.18
+    window.alert("O valor do imposto é R$ " + imposto)
+    </script>  
+    --> 
+<script>
+    preco = parseFloat(window.prompt("Qual o preco do produto? "))
+    estado = window.prompt("Qual a sigla do estado onde será vendido? ")
+    switch (estado) {
+        case "SP" : imposto = preco * 0.25; break;
+        case "RJ" : imposto = preco * 0.22; break;
+        case "MG" : imposto = preco * 0.2; break;
+        default: imposto = preco * 0.18
+
+    }
+
+    window.alert("O valor do imposto é R$" + imposto)
+</script>

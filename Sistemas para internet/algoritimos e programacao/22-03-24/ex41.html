@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        saldo01 = parseFloat(window.prompt("Saldo do 1º mês: "))
+        saldo02 = parseFloat(window.prompt("Saldo do 2° mês: "))
+        saldo03 = parseFloat(window.prompt("Saldo do 3° mês: "))
+        tipo = parseInt(window.prompt("Tipo de cliente: "))
+        saldo_medio = (saldo01 + saldo02 + saldo03)/3
+
+        switch (tipo) {
+            case 1 : limite = saldo_medio * 0.1; break;
+            case 2 : limite = saldo_medio * 0.15; break;
+            case 3 : limite = saldo_medio * 0.2; break;
+            default : limite = saldo_medio * 0.25
+            }
+        window.alert("Valor do limite: R$" + limite)
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- EX 40. uma empresa reembolsa um determinado valor por quilometro rodado aos seus vendedores. 
+    crie um programa que peça os dados  nnecessarios. calcule e exiba o valor do reembolso. considere a seguinte tabela
+     -->
+
+
+     <!-- váriaveis: km,reembolso,vpkm -->
+
+     
+
+
+     <script>
+
+        km = parseFloat(window.prompt("Quantos km percorridos?"))
+        if (km <= 100)
+            valor_km=(0.15268)
+        else if(km <= 500)
+            valor_km=(0.25368)
+        else if(km <= 1000 )
+            valor_km=(0.45274)
+        else
+            (km > 1000 )
+            valor_km=(0.62532)
+
+        reembolso= km*valor_km
+        window.alert("Valor à receber: R$" + reembolso)
+        
+
+
+     </script>
+</body>
+
+</html>
