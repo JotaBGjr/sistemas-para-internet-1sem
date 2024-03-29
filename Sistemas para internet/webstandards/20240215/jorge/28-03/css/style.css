@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.container {
+    padding: 20px;
+}
+
+fieldset{
+    padding: 5px;
+}
+
+/* Pergunta de prova 
+o que o padding faz?
+    o que o ID faz dentro do input? R: representa o for, fazendo um link
+    o que o name faz ? nomeclatura para ser utilizado no backend*/
+
+
+    fieldset legend {
+        padding: 5px;
+        
+    }
+
+    .form-control{
+        margin: 20px;
+
+    }
+
+    .form-control input{
+     max-width: 150px; /* Largura */
+     height: 18px; /*Altura*/
+     padding: 3px;
+     outline: none;
+     border: 20px solid grey;
+     border-radius: 50px;
+    }
+
+    select {
+        width: 100%; /*Largura*/
+        max-width: 162px; /*Largura*/        
+        height: 25px;
+    }
+
+    .btn-enviar {
+        padding: 8 px;
+        background: #191970;
+        color: rgb(1, 26, 26);
+        border: 0;
+        cursor: pointer
+    }
+
+    .cor-red {
+     background: red;
+    }
+
+    a {
+        text-decoration: none;
+        color: brown;
+        font-size: 22px;
+        
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: blueviolet;
+    }
