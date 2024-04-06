@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        valor_compra = parseFloat(window.prompt("Qual o valor da compra?"));
+        regiao = parseInt(window.prompt("Qual a região (1-5)"));
+    
+        switch (regiao) {
+            case 1: p_icms = 0.035; break;
+            case 2: p_icms = 0.045; break;
+            case 3: p_icms = 0.055; break;
+            case 4: p_icms = 0.065; break;
+            default: p_icms = 0.075;
+        }
+    
+        valor_icms = valor_compra * p_icms;
+    
+        window.alert("Valor do ICMS  recolhido: R$" + valor_icms)
+    </script>
+</body>
+</html>

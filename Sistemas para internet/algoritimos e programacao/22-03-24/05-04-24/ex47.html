@@ -1,0 +1,35 @@
+<!-- Crie u programa que peça ao usuário o valor do salário bruto de um funcionário, calcule e exiba os valores dos descontos (INSS e imposto de renda, calculados sobre o valor do salário bruto), bem como o salário líquido. use as seguintes tabelas para definir os valores no inss e do imposto de renda.
+Devem ser utilizados operadores lóigicos na solução. -->
+
+
+<script>
+    salario_bruto = window.prompt("Informe o salário bruto: R$")
+
+    if(salario_bruto <= 1000) {
+        INSS = salario_bruto * 0.03;
+    }
+    else if (salario_bruto > 1000 && salario_bruto <= 3000) {
+        INSS = salario_bruto * 0.04
+    }
+    else if(salario_bruto >3000 && salario_bruto <= 7000){
+        INSS = salario_bruto * 0.05;
+    }
+    else {
+        INSS = salario_bruto * 0.06;
+    }
+
+    if(salario_bruto <= 2500){
+        IR = salario_bruto * 0.00
+    }
+    else if(salario_bruto >= 2500.01 && salario_bruto <= 5000 ){
+        IR = salario_bruto * 0.05
+    }
+    else if(salario_bruto >= 5000.01 && salario_bruto <= 10000){
+        IR = salario_bruto * 0.1
+    }
+    else {
+        IR = salario_bruto * 0.15
+    }
+
+window.alert("Salário líquido R$ " + (salario_bruto-INSS-IR))
+</script>
