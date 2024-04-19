@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+}
+
+
+body{
+    background:rgb(194, 191, 191);
+}
+
+.container{
+    max-width: 1000px;
+    background: #fff;
+    /* Centralizar container */
+    margin: 0 auto;
+
+}
+
+.nav{
+    padding: 20px;
+    /* flexbox */
+    display: flex;
+}
+
+.nav li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(173, 3, 60);
+    padding: 15px;
+}
+
+.nav li a:hover {
+text-decoration: underline;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+main{
+    margin: 20px;
+
+}
+
+main p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 30;
+    line-height: 23px;
+
+}
+
+/* Páginaa Sobre */
+.lista{
+    max-width: 750px;
+    border: 1px solid rgb(100, 98, 98);
+    margin: 0 auto;
+}
+
+.lista table{
+    width: 100%;
+    
+}
+
+tr {
+    text-align: center;
+}
+
+.trPrincipal{
+    background: rgb(57, 6, 138);
+    color: #fff;
+    
+}
+
+.trPrime {
+    background: rgb(128, 19, 0);
+    color: #fff
+    
+}
+
+
+.containerImg{
+    max-width: 300px;
+    margin: 20px auto;
+
+}
+
+.containerImg img{
+    border-radius: 7px;
+    margin-bottom: 20px;;
+}
+
+/* Página Contato */
+
+form{
+    margin-top: 20px;
+
+}
+
+.form-control{
+    
+    margin: 20px;
+    
+}
+
+.form-control input{
+    padding: 5px;
+    border: 2px solid grey;
+    outline: none
+    
+}
+
+.form-control label{
+    width: 60px;
+
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.form-control button{
+    padding: 10px;
+    margin-bottom: 30px;
+    background: rgb(12, 12, 82);
+    color: #fff;
+    border: 0; 
+    cursor: pointer;
+
+}
