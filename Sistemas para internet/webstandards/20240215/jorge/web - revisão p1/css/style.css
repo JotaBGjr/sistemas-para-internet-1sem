@@ -1,0 +1,135 @@
+/* Asterístico seleciona todos os elementos HTML na página */
+*{
+    margin: 0;  /* Define a margem de todos elementos como 0 */
+    padding: 0; /* Define o preenchimento de todos os elementos como 0 */
+    list-style: none /* Remove os estilos de lista padrão (como pontos ou números) de todas as listas */
+
+
+}
+
+
+body{ /* Define o fundo do body da página */
+    background:rgb(194, 191, 191);
+}
+
+.container{ /* .container vai chamar todas as class = container */
+    max-width: 1000px; /* define a largura máxima do contêiner como 1000 */
+    background: #fff; /* define a cor de fundo desse container */
+    
+    margin: 0 auto; /* Centralizar container horizontalmente na página */
+
+}
+
+.nav{ /* Estilos para uma classe chamada "nav" */
+    padding: 20px; /* Addiciona um preenchimento interno de 20 pixels ao redor da navegação */
+    /* flexbox */
+    display: flex; /* usa flexbox para organizar os itens de navegação */
+}
+
+.nav li a { /* Estiliza os links dentro da nav */
+    font-size: 20px; /*Define o tamanho da fonte como 20 pixels */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: rgb(173, 3, 60);
+    padding: 15px; /* Adiciona um preenchimento de 15pixels ao redor dos links */
+}
+
+.nav li a:hover { /* Estilos para os links na navegação quando o mouse está sobre eles. */
+text-decoration: underline ; /* Adicion um sublinado aos links quando o mouse está sobre eles */
+
+}
+
+.nav li{ /*Estiliza os itens da lista dentro da navegação*/
+    display: inline-block; /* Faz com que os itens da lista apareçãm em linha*/
+    margin-right: 10px; 
+}
+main{ /*Estilo para o elemento main*/
+    margin: 20px; /*Adiciona uma margem de 20píxels ao redor do conteúdo principal*/ /*sequência de centralização = margin > border > padding > conteúdo*/
+
+}
+
+main p{  /* Estiliza o parágrafo dentro do elemento main */
+    font-size: 18px; /*Define o tamanho da fonte como 18p*/
+    padding-top: 10px; /*adiciona  um preenchimento na parte superior de 10p aos parágrafos*/
+    padding-bottom: 30px; /*define o preenchimento inferior como 30p*/
+    line-height: 23px; /* Define a altura da linha como 23pixels para melhor legibilidade*/
+
+}
+
+/* Páginaa Sobre */
+.lista{
+    max-width: 750px;
+    border: 1px solid rgb(100, 98, 98);
+    margin: 0 auto;
+}
+
+.lista table{
+    width: 100%;
+    
+}
+
+tr {
+    text-align: center;
+}
+
+.trPrincipal{
+    background: rgb(57, 6, 138);
+    color: #fff;
+    
+}
+
+.trPrime {
+    background: rgb(128, 19, 0);
+    color: #fff
+    
+}
+
+
+.containerImg{
+    max-width: 300px;
+    margin: 20px auto;
+
+}
+
+.containerImg img{
+    border-radius: 7px;
+    margin-bottom: 20px;;
+}
+
+/* Página Contato */
+
+form{
+    margin-top: 20px;
+
+}
+
+.form-control{
+    
+    margin: 20px;
+    
+}
+
+.form-control input{
+    padding: 5px;
+    border: 2px solid grey;
+    outline: none
+    
+}
+
+.form-control label{
+    width: 60px;
+
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.form-control button{
+    padding: 10px;
+    margin-bottom: 30px;
+    background: rgb(12, 12, 82);
+    color: #fff;
+    border: 0; 
+    cursor: pointer;
+
+}
