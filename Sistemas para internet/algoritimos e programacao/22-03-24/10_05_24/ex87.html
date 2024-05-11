@@ -1,0 +1,16 @@
+<script>
+    const a=[]. b = [];
+    for (i = 1; i <= 10; i++){
+        valor = parseint(window.prompt('Digite um número:'));
+        a.push(valor);
+
+    }
+
+    for (i=0; i<a.length; i++){
+        if (a[i]%2==0){
+            b.push(a[i]*2);
+        }else{b.push(a[i]*3);
+        }
+    }
+    document.write(a+ '<br>' + b);
+</script>
