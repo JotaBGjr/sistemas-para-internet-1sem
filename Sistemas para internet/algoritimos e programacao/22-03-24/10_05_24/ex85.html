@@ -1,0 +1,36 @@
+<!-- 
+    85. Crie um programa no qual o usuário deve inserir dez números
+    inteiros em um array.
+    Após isso deverá ser exibida  lista de números pares entre os digitados e alista d números ímpares entre
+    os digitados, uma lista abaixo da outra.
+    Por exemplo, se forem digitados os números de 1 a  10, a saída deverá
+    ser da seguinte forma:
+    Pares> 2 4 6 8 10
+    Ímpares > 1 3 5 7 9
+ -->
+
+
+ <script>
+const num = [];
+for (i = 1; i <= 10; i++){
+    valor = parseInt(window.prompt('Digite um número'));
+    num.push(valor);
+
+}
+
+document.write('Pares: ');
+for(i = 0; i<num.length;i++){
+    if(num[i] % 2 == 0){
+        document.write(num[i]+' ');
+    }
+}
+
+document.write('<br>Ímpares: ');
+for(i=0; i<num.length; i++){
+    if(num[i] % 2 != 0){
+        document.write(num[i] + ' ');
+    }
+
+}
+
+ </script>

@@ -1,0 +1,22 @@
+<!-- Crie um programa no qual o usuário deve iserir dez números
+inteiros em um array.
+Após isso, a lista de valores inseridos deverá ser exibida na ordem 
+inversa à da enrada, um valor ao lado do outro, separado por um
+espaço.
+Por exemplo, se forem digitados os números de 1 a 10, deverão
+ser exibidor da seguinte forma:
+10 9 8 7 6 5 4 3 2 1 -->
+
+
+<script>
+    const num = [];
+    for (i = 1; i <= 10; i++){
+        valor = parseInt(window.prompt('Digite 10 números'))
+        num.push(valor);
+        
+    }
+    for(i=num.length -1; i>=0;i --)
+        document.write(num[i] + ' ')
+    
+
+</script>
