@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(252, 204, 212);
+    list-style: none;
+}
+
+.logo{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+}
+.search-text {
+    margin: 2px ;
+    margin-left: 100px;
+    margin-right: 9px;
+    background: white;
+    border-radius: 20px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin-right: 120px;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+.produtos {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    margin-right: 30px;
+    margin-left: 0 auto;
+}
+.produtos li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+.produtos li a {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}.produtos li a:hover{
+    text-decoration: underline;
+}
+
+.content h1{
+    background: rgb(255, 139, 158);
+    display: flex;
+    align-items: center;
+    width: 600px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+    
+}
+.content img{
+    margin-left: 300px;
+}
+
+div {
+    display: flex;
+}
+
+.baixa h1 {
+    color: aliceblue;
+    background: rgb(255, 139, 158);
+    line-height: 150px;
+
+}
+
+.final {
+    margin: 2px ;
+    margin-left: 100px;
+    margin-right: 9px;
+    background: white;
+    border-radius: 9px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgdoces img{
+    border-radius: 20px;
+    margin-left: 80px;
+    margin: 30px;
+    justify-content: space-between;
+}
